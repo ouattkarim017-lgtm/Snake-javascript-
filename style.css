@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.EspaceDeJeu {
+    position: relative;
+    border: solid 5px #fff;
+    width: 400px;
+    height: 400px;
+    margin: 0;
+}
+
+.segment {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: chartreuse;
+    border-radius: 100%;
+}
+
+.tete {
+    background: darkgreen;
+    border-radius: 100%;
+}
+
+#pomme {
+    position: absolute;
+}
+
+.control {
+    margin: 25px;
+}
+
+button {
+    padding: 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.control button:active {
+    background-color: #aaa;
+}
+
+#message {
+  position: absolute;
+  inset: 0;                    /* couvre toute la zone */
+  display: none;               /* caché par défaut */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 20px;
+  z-index: 10;
+}
+
+select {
+   margin: 20px;
+   background-color: #fff;
+}
+
+.rejouer {
+    border-radius: 50px;
+    background-color: rgb(44, 72, 3);
+    color: white;
+    border: none;
+}
+
+.messageEchec {
+    color: rgba(255, 0, 0, 0.874);
+}
+
+header {
+    border-radius: 5px;
+    background-color: blue;
+}

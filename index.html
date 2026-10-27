@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jeu de karim</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer type="module"></script>
+</head>
+
+<body>
+    <div class="contenaire">
+        <header>
+            <h1>Jeu De Serpent</h1>
+            <h2 class="score"> score:
+                <i id="valeurscore">0</i>
+            </h2>
+            <h3 class="score">Melleur Score : <i id="meilleurscore"> 0</i></h3>
+            <select name="niveau" id="niveau">
+                <option value="facile">facile</option>
+                <option value="moyen">moyen</option>
+                <option value="difficile">difficile</option>
+            </select>
+        </header>
+        <div class="EspaceDeJeu">
+            <div id="pomme">🍎</div>
+            <div id="message"></div>
+        </div>
+        <button id="jouer">Jouer</button>
+        <button id="pause" disabled>Pause</button>
+        <div class="control">
+            <button type="button" id="haut">▲</button>
+            <button type="button " id="gauche">◀</button>
+            <button type="button" id="bas">▼</button>
+            <button type="button" id="droite">▶</button>
+        </div>
+    </div>
+</body>
+
+</html>
