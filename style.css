@@ -8,6 +8,12 @@ body {
     text-align: center;
 }
 
+header h1 {
+    font-size: 50px;
+    background-color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 
 .EspaceDeJeu {
     position: relative;
@@ -28,8 +34,8 @@ body {
 }
 
 .tete {
-    background: darkgreen;
-    border-radius: 100%;
+    background: rgb(63, 241, 63);
+    border-radius:30%;
 }
 
 #pomme {
@@ -37,8 +43,24 @@ body {
 }
 
 .control {
-    margin: 25px;
+    text-align: center;
+    margin: 20px;
+    display: grid;
+
 }
+
+.control div button {
+    background-color: rgba(34, 255, 0, 0.6);
+    color: white;
+    padding: 20px;
+    width: 80px;
+}
+
+.control .centre button {
+  width:100px;
+}
+
+
 
 button {
     padding: 15px;
@@ -72,11 +94,11 @@ select {
 
 .rejouer {
     border-radius: 50px;
-    background-color: rgb(44, 72, 3);
+    background-color: green;
     color: white;
     border: none;
 }
 
 .messageEchec {
-    color: rgba(255, 0, 0, 0.874);
+    color: red;
 }
