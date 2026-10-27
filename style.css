@@ -2,15 +2,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #222;
     color: #fff;
+    background-color: rgb(0, 0, 18);
     font-family: Arial, sans-serif;
     text-align: center;
 }
 
+
 .EspaceDeJeu {
     position: relative;
     border: solid 5px #fff;
+    background-color: #3e3d3d;
+    border-radius: 10px;
     width: 400px;
     height: 400px;
     margin: 0;
@@ -62,6 +65,8 @@ button {
 
 select {
    margin: 20px;
+   padding: 10px;
+   font-size: 19px;
    background-color: #fff;
 }
 
@@ -74,9 +79,4 @@ select {
 
 .messageEchec {
     color: rgba(255, 0, 0, 0.874);
-}
-
-header {
-    border-radius: 5px;
-    background-color: blue;
 }
